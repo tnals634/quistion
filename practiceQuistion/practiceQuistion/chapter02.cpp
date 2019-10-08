@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+//2장 연습문제
 void Question01()
 {
 	double miles = 100, MILE_TO_KILOMETER = 1.609, kilometer;
@@ -51,11 +52,13 @@ void Question08()
 
 }
 
-void main()
+int main()
 {
 	//Question01();
 	//Question02();
 	//Question05();
 	//Question06();
 	Question08();
+
+	return 0;
 }
